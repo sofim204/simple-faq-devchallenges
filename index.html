@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #F8FAFC;
+        color: #111827;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 36px;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      p, li {
+        line-height: 1.6;
+      }
+
+      a {
+        color: #4E80EE;
+        text-decoration: none;
+      }
+
+      .bold {
+        font-weight: 800;
+      }
+
+      header {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #FFFFFF;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1280px;
+      }
+
+      .faq-item {
+        padding: 40px 200px;
+      }
+
+      .faq-item ol, .faq-item ul {
+        margin: 15px 0 15px 20px;
+      }
+
+      .faq-item li {
+        margin-bottom: 8px;
+      }
+
+      .vertical-line {
+        border-bottom: 1px solid #D2D5DA;
+        margin: 0 auto;
+        max-width: 900px;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin: 30px 0;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      @media (max-width: 1280px) {
+        .faq-item {
+          padding: 40px 150px;
+        }
+        h1 {
+          font-size: 32px;
+        }
+        h2 {
+          font-size: 22px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .faq-item {
+          padding: 40px 80px;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+      }
+
+      @media (max-width: 640px) {
+        header {
+          padding: 40px 15px;
+        }
+        .faq-item {
+          padding: 30px 20px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+        h2 {
+          font-size: 18px;
+        }
+        body {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="faq">
+      <header>
+        <h1>Frequently Asked Questions</h1>
+        <p>Browse through the most frequently asked questions</p>
+      </header>
+      <div class="container">
+        <div class="faq-item">
+          <h2>How can I track my order?</h2>
+          <p>You can track your order using the following steps</p>
+          <ol>
+            <li>Go to the Order <a href="#">Tracking page</a>.</li>
+            <li>Enter your order number and email address.</li>
+            <li>Click on the Track Order button to view the current status of your shipment.</li>
+          </ol>
+          <p>If you encounter any issues, please visit our <a href="#">Help Center</a>.</p>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="faq-item">
+          <h2>What is your return policy?</h2>
+          <p>We offer a 30-day return policy on most items. Here are some key points</p>
+          <ul>
+            <li><span class="bold">Items must be in original condition</span> Unworn, unused, and unwashed.</li>
+            <li><span class="bold">Include original packaging and tags</span> All items should be returned with their original packaging and tags.</li>
+            <li><span class="bold">Proof of purchase</span> A receipt or proof of purchase is required.</li>
+          </ul>
+          <p>For more detailed information, read our full<a href="#"> Return Policy</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="author-info">
+      Coded by <a href="#">Muhammad Sofi</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
